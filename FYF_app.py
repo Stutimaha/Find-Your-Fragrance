@@ -50,33 +50,53 @@ def get_recommendation(user_perfume, user_notes):
 
 # Define the Streamlit app
 def main():
+    # Set the page title and icon
+    st.set_page_config(page_title='Find Your Fragrance', page_icon='https://png.pngtree.com/png-clipart/20210815/original/pngtree-watercolor-perfume-blue-glass-bottle-perfume-png-image_6644129.jpg')
+    
     
     # Set the background image
     page_bg_img = '''
     <style>
     [data-testid="stAppViewContainer"]{
         background-image: url("https://media.glamourmagazine.co.uk/photos/613892f3e2e190b1f7b26136/16:9/w_2560%2Cc_limit/gettyimages-959786750_sf.jpg");
-        background-size: cover;
-        
+        background-size: cover;        
         }
     [data-testid="stHeader"]{
         background-color: rgba(0,0,0,0);
         }
+    [data-testid="stVerticalBlock"]{
+        background-color: #742a40;
+        
+        
+        }
+    .st-bt {
+    background-color: #DE5D83;
+}
+
+    
+    .css-5uatcg {
+        background-color: #DE5D83;
+        display: block;
+      margin: 0 auto;
+      text-align: center;
+      border-radius: 100 px;
+        
+    }
+    
     
     </style>
     '''
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
     
-    # Set the page title and icon
-    #st.set_page_config(page_title='Find Your Fragrance', page_icon='https://images.squarespace-cdn.com/content/v1/528f8b33e4b01f2a315145b2/1608189399270-OBUFOU8OH7RGV5IHG4Q1/e-commerce-photography-video-content-cosmetics-perfume.jpg')
+
 
     # Set the app title and subtitle
+    
+    st.header("Find your Fragrance")
+    st.subheader("Find your next signature perfume!")
 
-    st.markdown("<h1 style='color: #69354f;'>Find your Fragrance</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='color: #69354f;'>Find your next signature perfume!</h2>", unsafe_allow_html=True)
-
-
+    
     # Create a text box to enter the perfume Brand and Name
     selected_perfume = st.text_input('Enter the perfume name: (Brand name - Perfume Name)', placeholder='Jo Malone - English Pear & Freesia' )
 
