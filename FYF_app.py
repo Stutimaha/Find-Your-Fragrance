@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
 import pickle
 from sentence_transformers import util
 
@@ -12,9 +11,6 @@ model = model_dict['model']
 df = model_dict['df']
 note_embeddings = model_dict['note_embeddings']
 
-# Set the Seaborn style
-sns.set_context('notebook')
-sns.set_style('white')
 
 # Define a function to get perfume recommendations based on user input
 def get_recommendation(user_perfume, user_notes):
