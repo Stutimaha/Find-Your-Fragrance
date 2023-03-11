@@ -4,7 +4,7 @@ import pickle
 from sentence_transformers import util
 
 # Load the model and data from the pickle file
-with open('C:/Users/Stuti/Downloads/FYF/FYF_model.pkl', 'rb') as f:
+with open('FYF_model.pkl', 'rb') as f:
     model_dict = pickle.load(f)
 
 model = model_dict['model']
