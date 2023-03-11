@@ -53,33 +53,31 @@ def main():
     # Set the background image
     page_bg_img = '''
     <style>
-    [data-testid="stAppViewContainer"]{
-        background-image: url("https://media.glamourmagazine.co.uk/photos/613892f3e2e190b1f7b26136/16:9/w_2560%2Cc_limit/gettyimages-959786750_sf.jpg");
-        background-size: cover;        
+        [data-testid="stAppViewContainer"]
+            {
+                background-image: url("https://media.glamourmagazine.co.uk/photos/613892f3e2e190b1f7b26136/16:9/w_2560%2Cc_limit/gettyimages-959786750_sf.jpg");
+                background-size: cover;        
+            }
+        [data-testid="stHeader"]
+            {
+                background-color: rgba(0,0,0,0);
+            }
+        [data-testid="stVerticalBlock"]
+            {
+                background-color: #742a40;
+            }
+        .st-bt 
+            {
+            background-color: #DE5D83;
+            }    
+        .css-5uatcg 
+        {
+            background-color: #DE5D83;
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            border-radius: 100 px;   
         }
-    [data-testid="stHeader"]{
-        background-color: rgba(0,0,0,0);
-        }
-    [data-testid="stVerticalBlock"]{
-        background-color: #742a40;
-        
-        
-        }
-    .st-bt {
-    background-color: #DE5D83;
-}
-
-    
-    .css-5uatcg {
-        background-color: #DE5D83;
-        display: block;
-      margin: 0 auto;
-      text-align: center;
-      border-radius: 100 px;
-        
-    }
-    
-    
     </style>
     '''
     st.markdown(page_bg_img, unsafe_allow_html=True)
