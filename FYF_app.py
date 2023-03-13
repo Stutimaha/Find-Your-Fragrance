@@ -64,6 +64,7 @@ def main():
             }
         [data-testid="stVerticalBlock"]
             {
+                padding: 0px 20px 20px 0px;
                 background-color: #742a40;
             }
         .st-bt 
@@ -78,6 +79,13 @@ def main():
             text-align: center;
             border-radius: 100 px;   
         }
+        a:link {
+        color: white;
+        }
+        a:visited {
+            color: white;
+        }
+        
     </style>
     '''
     st.markdown(page_bg_img, unsafe_allow_html=True)
@@ -93,6 +101,9 @@ def main():
     
     # Create a text box to enter the perfume Brand and Name
     selected_perfume = st.text_input('Enter the perfume name: (Brand name - Perfume Name)', placeholder='Jo Malone - English Pear & Freesia' )
+
+    # Add hyperlink to Fragrantica.com to help users find notes of their favourite perfume
+    st.markdown('Find the notes of your favourite perfume on [Fragrantica.com](https://www.fragrantica.com/search/).')
 
     # Create a text box to enter the perfume notes
     notes = st.text_input('Enter the perfume notes: (comma separated)', placeholder= 'Pear, Melon, Freesia, Rose, Musk, Patchouli, Rhuburb, Amber')
