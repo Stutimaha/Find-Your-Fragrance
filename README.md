@@ -16,8 +16,8 @@ The objective was to design a system that recommends five perfumes with notes si
 - Personalized Experience: The recommender system ensures that the recommended perfumes align with your preferences, providing a personalized fragrance discovery journey.
 
 ## Usage
-
+To experience "Find Your Fragrance" yourself, click [here](https://find-your-fragrance.streamlit.app/) and follow these simple steps:
 1. Enter the brand name, product name, and perfume notes in the provided input fields.
 2. Click the "Find Fragrance" button to initiate the recommendation process.
 3. The system will analyze your input and generate a list of five similar perfumes.
-4. Review the recommended perfumes and explore their details to find your next signature fragrance effortlessly. 
+4. Review the recommended perfumes and explore their details to find your next signature fragrance effortlessly.
