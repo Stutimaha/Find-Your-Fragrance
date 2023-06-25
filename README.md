@@ -15,7 +15,8 @@ The objective was to design a system that recommends five perfumes with notes si
 - Recommendation Engine: By employing cosine similarity metrics, the system generates a list of five perfumes with notes similar to your input.
 - Personalized Experience: The recommender system ensures that the recommended perfumes align with your preferences, providing a personalized fragrance discovery journey.
 
-##Usage
+## Usage
+
 1. Enter the brand name, product name, and perfume notes in the provided input fields.
 2. Click the "Find Fragrance" button to initiate the recommendation process.
 3. The system will analyze your input and generate a list of five similar perfumes.
