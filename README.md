@@ -1,8 +1,8 @@
-# Find Your Fragrance
+# [Find Your Fragrance](https://find-your-fragrance.streamlit.app/)
 
 ## Introduction
 
-I have created "Find Your Fragrance," a website that assists you in discovering your perfect scent by leveraging the notes of your favorite perfume. With this website, you can effortlessly find your next signature fragrance. By utilizing machine learning algorithms, the website recommends five similar perfumes based on the perfume notes you provide, including the brand name, product name, and specific notes.
+I have created "[Find Your Fragrance](https://find-your-fragrance.streamlit.app/)" a website that assists you in discovering your perfect scent by leveraging the notes of your favorite perfume. With this website, you can effortlessly find your next signature fragrance. By utilizing machine learning algorithms, the website recommends five similar perfumes based on the perfume notes you provide, including the brand name, product name, and specific notes.
 
 ## Project Overview
 
