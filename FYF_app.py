@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import pickle
 from sentence_transformers import util
+import streamlit.config as config
+
 
 # Load the model and data from the pickle file
 with open('FYF_model.pkl', 'rb') as f:
@@ -91,7 +93,8 @@ def main():
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
     
-
+    # Set the theme to dark mode
+    config.set_option("theme", "dark")
 
     # Set the app title and subtitle
     
